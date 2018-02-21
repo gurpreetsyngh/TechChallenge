@@ -14,6 +14,11 @@
 		52FB45C7203CFD76005FD482 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52FB45C5203CFD76005FD482 /* LaunchScreen.storyboard */; };
 		52FB45CA203CFD76005FD482 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FB45C9203CFD76005FD482 /* main.m */; };
 		52FB45D4203CFD76005FD482 /* CodingAssignmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FB45D3203CFD76005FD482 /* CodingAssignmentTests.m */; };
+		52FB45E1203D07BA005FD482 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FB45E0203D07BA005FD482 /* NetworkManager.m */; };
+		52FB45E5203D082D005FD482 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FB45E3203D082D005FD482 /* Reachability.m */; };
+		52FB45E9203D0ABC005FD482 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FB45E8203D0ABC005FD482 /* DataManager.m */; };
+		52FB45EC203D0B35005FD482 /* NSDictionary+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FB45EB203D0B35005FD482 /* NSDictionary+Utils.m */; };
+		52FB45F0203D0BC8005FD482 /* Fact.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FB45EF203D0BC8005FD482 /* Fact.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,16 @@
 		52FB45CF203CFD76005FD482 /* CodingAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodingAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52FB45D3203CFD76005FD482 /* CodingAssignmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodingAssignmentTests.m; sourceTree = "<group>"; };
 		52FB45D5203CFD76005FD482 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52FB45DF203D07BA005FD482 /* NetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		52FB45E0203D07BA005FD482 /* NetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		52FB45E3203D082D005FD482 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		52FB45E4203D082D005FD482 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		52FB45E7203D0ABC005FD482 /* DataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		52FB45E8203D0ABC005FD482 /* DataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		52FB45EA203D0B35005FD482 /* NSDictionary+Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Utils.h"; sourceTree = "<group>"; };
+		52FB45EB203D0B35005FD482 /* NSDictionary+Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Utils.m"; sourceTree = "<group>"; };
+		52FB45EE203D0BC8005FD482 /* Fact.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fact.h; sourceTree = "<group>"; };
+		52FB45EF203D0BC8005FD482 /* Fact.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fact.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +100,9 @@
 				52FB45BB203CFD76005FD482 /* AppDelegate.m */,
 				52FB45BD203CFD76005FD482 /* FactsTableViewController.h */,
 				52FB45BE203CFD76005FD482 /* FactsTableViewController.m */,
+				52FB45E2203D082D005FD482 /* Utilities */,
+				52FB45E6203D0AAF005FD482 /* DataManager */,
+				52FB45DE203D07A8005FD482 /* NetworkManager */,
 				52FB45C0203CFD76005FD482 /* Main.storyboard */,
 				52FB45C3203CFD76005FD482 /* Assets.xcassets */,
 				52FB45C5203CFD76005FD482 /* LaunchScreen.storyboard */,
@@ -102,6 +120,45 @@
 			);
 			path = CodingAssignmentTests;
 			sourceTree = "<group>";
+		};
+		52FB45DE203D07A8005FD482 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				52FB45DF203D07BA005FD482 /* NetworkManager.h */,
+				52FB45E0203D07BA005FD482 /* NetworkManager.m */,
+			);
+			path = NetworkManager;
+			sourceTree = SOURCE_ROOT;
+		};
+		52FB45E2203D082D005FD482 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				52FB45E4203D082D005FD482 /* Reachability.h */,
+				52FB45E3203D082D005FD482 /* Reachability.m */,
+				52FB45EA203D0B35005FD482 /* NSDictionary+Utils.h */,
+				52FB45EB203D0B35005FD482 /* NSDictionary+Utils.m */,
+			);
+			path = Utilities;
+			sourceTree = SOURCE_ROOT;
+		};
+		52FB45E6203D0AAF005FD482 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				52FB45ED203D0BB9005FD482 /* Model */,
+				52FB45E7203D0ABC005FD482 /* DataManager.h */,
+				52FB45E8203D0ABC005FD482 /* DataManager.m */,
+			);
+			path = DataManager;
+			sourceTree = SOURCE_ROOT;
+		};
+		52FB45ED203D0BB9005FD482 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				52FB45EE203D0BC8005FD482 /* Fact.h */,
+				52FB45EF203D0BC8005FD482 /* Fact.m */,
+			);
+			path = Model;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -205,9 +262,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52FB45EC203D0B35005FD482 /* NSDictionary+Utils.m in Sources */,
+				52FB45E1203D07BA005FD482 /* NetworkManager.m in Sources */,
+				52FB45E9203D0ABC005FD482 /* DataManager.m in Sources */,
 				52FB45BF203CFD76005FD482 /* FactsTableViewController.m in Sources */,
 				52FB45CA203CFD76005FD482 /* main.m in Sources */,
 				52FB45BC203CFD76005FD482 /* AppDelegate.m in Sources */,
+				52FB45E5203D082D005FD482 /* Reachability.m in Sources */,
+				52FB45F0203D0BC8005FD482 /* Fact.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

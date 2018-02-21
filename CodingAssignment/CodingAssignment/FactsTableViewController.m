@@ -7,8 +7,12 @@
 //
 
 #import "FactsTableViewController.h"
+#import "DataManager.h"
+#import "Fact.h"
 
 @interface FactsTableViewController ()
+
+@property(nonatomic, strong) NSMutableArray<Fact *> * facts;
 
 @end
 
@@ -16,9 +20,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    [self getFacts];
 }
 
+- (void)getFacts {
+    
+    [DataManager getFacts:^(NSString * _Nullable title, NSArray * _Nullable data, NSError * _Nullable error) {
+        
+    }];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
