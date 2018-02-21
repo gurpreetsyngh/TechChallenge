@@ -15,19 +15,6 @@
     return obj && ![obj isKindOfClass:[NSNull class]];
 }
 
-- (NSString *)stringForKeys:(NSArray *)keys {
-    return [self stringForKeys:keys defaultValue:nil];
-}
-
-- (NSString *)stringForKeys:(NSArray *)keys defaultValue:(NSString *)value {
-    for(NSString *key in keys) {
-        if ([self containsKey:key]) {
-            return [self stringForKey:key defaultValue:value];
-        }
-    }
-    return value;
-}
-
 - (NSString *)stringForKey:(NSString *)key {
     return [self stringForKey:key defaultValue:nil];
 }

@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "FactsTableViewController.h"
-
+#import "StyleManager.h"
 @interface AppDelegate ()
 
 @end
@@ -21,7 +21,11 @@
     FactsTableViewController* tableViewController = [[FactsTableViewController alloc] init];
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:tableViewController];
     [self.window setRootViewController:navigationController];
-    [self.window makeKeyAndVisible];    return YES;
+    NSDictionary *attributes = [NSDictionary dictionaryWithObject:[UIColor whiteColor] forKey:NSForegroundColorAttributeName];
+    [[UINavigationBar appearance] setTitleTextAttributes:attributes];
+    [[UINavigationBar appearance] setBarTintColor:[StyleManager primaryColor]];
+    [self.window makeKeyAndVisible];
+    return YES;
 }
 
 

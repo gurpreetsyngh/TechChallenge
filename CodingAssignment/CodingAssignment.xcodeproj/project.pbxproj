@@ -22,6 +22,7 @@
 		52FB45EC203D0B35005FD482 /* NSDictionary+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FB45EB203D0B35005FD482 /* NSDictionary+Utils.m */; };
 		52FB45F0203D0BC8005FD482 /* Fact.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FB45EF203D0BC8005FD482 /* Fact.m */; };
 		52FB45F4203D263D005FD482 /* FactsCustomCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FB45F3203D263D005FD482 /* FactsCustomCellTableViewCell.m */; };
+		52FB45F7203D2C4D005FD482 /* StyleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FB45F6203D2C4D005FD482 /* StyleManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,8 @@
 		52FB45EF203D0BC8005FD482 /* Fact.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fact.m; sourceTree = "<group>"; };
 		52FB45F2203D263D005FD482 /* FactsCustomCellTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FactsCustomCellTableViewCell.h; sourceTree = "<group>"; };
 		52FB45F3203D263D005FD482 /* FactsCustomCellTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactsCustomCellTableViewCell.m; sourceTree = "<group>"; };
+		52FB45F5203D2C4D005FD482 /* StyleManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StyleManager.h; sourceTree = "<group>"; };
+		52FB45F6203D2C4D005FD482 /* StyleManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StyleManager.m; sourceTree = "<group>"; };
 		70CEEB13E119100E1C695E88 /* libPods-CodingAssignment.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CodingAssignment.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		746FBC3EA59FE02CF649FBE2 /* libPods-CodingAssignmentTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CodingAssignmentTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CE8691AFDC4CE1020FFBDF4 /* Pods-CodingAssignmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodingAssignmentTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CodingAssignmentTests/Pods-CodingAssignmentTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -162,6 +165,8 @@
 				52FB45E3203D082D005FD482 /* Reachability.m */,
 				52FB45EA203D0B35005FD482 /* NSDictionary+Utils.h */,
 				52FB45EB203D0B35005FD482 /* NSDictionary+Utils.m */,
+				52FB45F5203D2C4D005FD482 /* StyleManager.h */,
+				52FB45F6203D2C4D005FD482 /* StyleManager.m */,
 			);
 			path = Utilities;
 			sourceTree = SOURCE_ROOT;
@@ -415,6 +420,7 @@
 				52FB45EC203D0B35005FD482 /* NSDictionary+Utils.m in Sources */,
 				52FB45E1203D07BA005FD482 /* NetworkManager.m in Sources */,
 				52FB45E9203D0ABC005FD482 /* DataManager.m in Sources */,
+				52FB45F7203D2C4D005FD482 /* StyleManager.m in Sources */,
 				52FB45BF203CFD76005FD482 /* FactsTableViewController.m in Sources */,
 				52FB45F4203D263D005FD482 /* FactsCustomCellTableViewCell.m in Sources */,
 				52FB45CA203CFD76005FD482 /* main.m in Sources */,

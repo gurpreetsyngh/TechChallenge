@@ -10,6 +10,7 @@
 #import "FactsCustomCellTableViewCell.h"
 #import <SDWebImage/UIImageView+WebCache.h>
 #import "DataManager.h"
+#import "StyleManager.h"
 #import "Fact.h"
 
 static NSString * const CellIdentifier = @"FactsCustomCell";
@@ -28,8 +29,10 @@ static NSString * const CellIdentifier = @"FactsCustomCell";
     self.tableView.estimatedRowHeight = 44;
     self.refreshControl = [[UIRefreshControl alloc]init];
     self.refreshControl.tintColor = [UIColor grayColor];
-    self.refreshControl.attributedTitle = [[NSAttributedString alloc] initWithString:@"Updating data"];
     [self.refreshControl addTarget:self action:@selector(getFacts) forControlEvents:(UIControlEventValueChanged)];
+    [self.refreshControl setTintColor:[StyleManager secondaryColor]];
+    NSAttributedString *title = [[NSAttributedString alloc] initWithString:@"Updating Data..." attributes: @{NSForegroundColorAttributeName:[StyleManager primaryColor]}];
+    self.refreshControl.attributedTitle = [[NSAttributedString alloc]initWithAttributedString:title];
     [self getFacts];
 }
 
@@ -37,7 +40,12 @@ static NSString * const CellIdentifier = @"FactsCustomCell";
      __weak __typeof__(self) weakSelf = self;
     [DataManager getFacts:^(NSString * _Nullable title, NSArray * _Nullable data, NSError * _Nullable error) {
         if (error) {
-            [weakSelf showError:error.localizedDescription];
+            dispatch_async(dispatch_get_main_queue(), ^{
+                [weakSelf showError:error.localizedDescription];
+                if (weakSelf.refreshControl.isRefreshing) {
+                    [weakSelf.refreshControl endRefreshing];
+                }
+            });
         } else {
             weakSelf.facts = [[weakSelf filterArray:data] mutableCopy];
             dispatch_async(dispatch_get_main_queue(), ^{

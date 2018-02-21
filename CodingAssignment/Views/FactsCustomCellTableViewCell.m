@@ -7,6 +7,7 @@
 //
 
 #import "FactsCustomCellTableViewCell.h"
+#import "StyleManager.h"
 #import "Masonry.h"
 
 @implementation FactsCustomCellTableViewCell
@@ -29,7 +30,8 @@
         self.titleLabel.textColor = [UIColor blackColor];
         self.titleLabel.numberOfLines = 0;
         self.titleLabel.lineBreakMode = NSLineBreakByWordWrapping;
-        self.titleLabel.font = [UIFont fontWithName:@"Arial" size:18.0f];
+        self.titleLabel.font = [StyleManager headingFont];
+        self.titleLabel.textColor = [StyleManager primaryColor];
         [self.contentView addSubview:self.titleLabel];
         
         self.descriptionLabel = [[UILabel alloc] init];
@@ -37,13 +39,13 @@
         self.descriptionLabel.numberOfLines = 0;
         self.descriptionLabel.textAlignment = NSTextAlignmentLeft;
         self.descriptionLabel.lineBreakMode = NSLineBreakByWordWrapping;
-        self.descriptionLabel.font = [UIFont fontWithName:@"Arial" size:12.0f];
+        self.descriptionLabel.font = [StyleManager subHeadingFont];
+        self.descriptionLabel.textColor = [StyleManager secondaryColor];
         [self.contentView addSubview:self.descriptionLabel];
         
         self.activityIndicator = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
         self.activityIndicator.alpha = 1.0;
         self.activityIndicator.hidden = NO;
-        self.activityIndicator.center = CGPointMake([[UIScreen mainScreen]bounds].size.width/2, [[UIScreen mainScreen]bounds].size.height/2 - 64);
         [self.thumbnailImage addSubview:self.activityIndicator];
         
         [self setNeedsUpdateConstraints];
