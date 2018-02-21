@@ -1,0 +1,183 @@
+CodingAssignment/CodingAssignment.xcworkspace/contents.xcworkspacedata
+CodingAssignment/CodingAssignment.xcworkspace/xcuserdata/gurpreet.singh.xcuserdatad/UserInterfaceState.xcuserstate
+CodingAssignment/Pods/Manifest.lock
+CodingAssignment/Pods/Headers/Private/Masonry/MASCompositeConstraint.h
+CodingAssignment/Pods/Headers/Private/Masonry/MASConstraint+Private.h
+CodingAssignment/Pods/Headers/Private/Masonry/MASConstraint.h
+CodingAssignment/Pods/Headers/Private/Masonry/MASConstraintMaker.h
+CodingAssignment/Pods/Headers/Private/Masonry/MASLayoutConstraint.h
+CodingAssignment/Pods/Headers/Private/Masonry/Masonry.h
+CodingAssignment/Pods/Headers/Private/Masonry/MASUtilities.h
+CodingAssignment/Pods/Headers/Private/Masonry/MASViewAttribute.h
+CodingAssignment/Pods/Headers/Private/Masonry/MASViewConstraint.h
+CodingAssignment/Pods/Headers/Private/Masonry/NSArray+MASAdditions.h
+CodingAssignment/Pods/Headers/Private/Masonry/NSArray+MASShorthandAdditions.h
+CodingAssignment/Pods/Headers/Private/Masonry/NSLayoutConstraint+MASDebugAdditions.h
+CodingAssignment/Pods/Headers/Private/Masonry/View+MASAdditions.h
+CodingAssignment/Pods/Headers/Private/Masonry/View+MASShorthandAdditions.h
+CodingAssignment/Pods/Headers/Private/Masonry/ViewController+MASAdditions.h
+CodingAssignment/Pods/Headers/Private/SDWebImage/NSData+ImageContentType.h
+CodingAssignment/Pods/Headers/Private/SDWebImage/NSImage+WebCache.h
+CodingAssignment/Pods/Headers/Private/SDWebImage/SDImageCache.h
+CodingAssignment/Pods/Headers/Private/SDWebImage/SDImageCacheConfig.h
+CodingAssignment/Pods/Headers/Private/SDWebImage/SDWebImageCoder.h
+CodingAssignment/Pods/Headers/Private/SDWebImage/SDWebImageCoderHelper.h
+CodingAssignment/Pods/Headers/Private/SDWebImage/SDWebImageCodersManager.h
+CodingAssignment/Pods/Headers/Private/SDWebImage/SDWebImageCompat.h
+CodingAssignment/Pods/Headers/Private/SDWebImage/SDWebImageDownloader.h
+CodingAssignment/Pods/Headers/Private/SDWebImage/SDWebImageDownloaderOperation.h
+CodingAssignment/Pods/Headers/Private/SDWebImage/SDWebImageFrame.h
+CodingAssignment/Pods/Headers/Private/SDWebImage/SDWebImageGIFCoder.h
+CodingAssignment/Pods/Headers/Private/SDWebImage/SDWebImageImageIOCoder.h
+CodingAssignment/Pods/Headers/Private/SDWebImage/SDWebImageManager.h
+CodingAssignment/Pods/Headers/Private/SDWebImage/SDWebImageOperation.h
+CodingAssignment/Pods/Headers/Private/SDWebImage/SDWebImagePrefetcher.h
+CodingAssignment/Pods/Headers/Private/SDWebImage/UIButton+WebCache.h
+CodingAssignment/Pods/Headers/Private/SDWebImage/UIImage+ForceDecode.h
+CodingAssignment/Pods/Headers/Private/SDWebImage/UIImage+GIF.h
+CodingAssignment/Pods/Headers/Private/SDWebImage/UIImage+MultiFormat.h
+CodingAssignment/Pods/Headers/Private/SDWebImage/UIImageView+HighlightedWebCache.h
+CodingAssignment/Pods/Headers/Private/SDWebImage/UIImageView+WebCache.h
+CodingAssignment/Pods/Headers/Private/SDWebImage/UIView+WebCache.h
+CodingAssignment/Pods/Headers/Private/SDWebImage/UIView+WebCacheOperation.h
+CodingAssignment/Pods/Headers/Public/Masonry/MASCompositeConstraint.h
+CodingAssignment/Pods/Headers/Public/Masonry/MASConstraint+Private.h
+CodingAssignment/Pods/Headers/Public/Masonry/MASConstraint.h
+CodingAssignment/Pods/Headers/Public/Masonry/MASConstraintMaker.h
+CodingAssignment/Pods/Headers/Public/Masonry/MASLayoutConstraint.h
+CodingAssignment/Pods/Headers/Public/Masonry/Masonry.h
+CodingAssignment/Pods/Headers/Public/Masonry/MASUtilities.h
+CodingAssignment/Pods/Headers/Public/Masonry/MASViewAttribute.h
+CodingAssignment/Pods/Headers/Public/Masonry/MASViewConstraint.h
+CodingAssignment/Pods/Headers/Public/Masonry/NSArray+MASAdditions.h
+CodingAssignment/Pods/Headers/Public/Masonry/NSArray+MASShorthandAdditions.h
+CodingAssignment/Pods/Headers/Public/Masonry/NSLayoutConstraint+MASDebugAdditions.h
+CodingAssignment/Pods/Headers/Public/Masonry/View+MASAdditions.h
+CodingAssignment/Pods/Headers/Public/Masonry/View+MASShorthandAdditions.h
+CodingAssignment/Pods/Headers/Public/Masonry/ViewController+MASAdditions.h
+CodingAssignment/Pods/Headers/Public/SDWebImage/NSData+ImageContentType.h
+CodingAssignment/Pods/Headers/Public/SDWebImage/NSImage+WebCache.h
+CodingAssignment/Pods/Headers/Public/SDWebImage/SDImageCache.h
+CodingAssignment/Pods/Headers/Public/SDWebImage/SDImageCacheConfig.h
+CodingAssignment/Pods/Headers/Public/SDWebImage/SDWebImageCoder.h
+CodingAssignment/Pods/Headers/Public/SDWebImage/SDWebImageCoderHelper.h
+CodingAssignment/Pods/Headers/Public/SDWebImage/SDWebImageCodersManager.h
+CodingAssignment/Pods/Headers/Public/SDWebImage/SDWebImageCompat.h
+CodingAssignment/Pods/Headers/Public/SDWebImage/SDWebImageDownloader.h
+CodingAssignment/Pods/Headers/Public/SDWebImage/SDWebImageDownloaderOperation.h
+CodingAssignment/Pods/Headers/Public/SDWebImage/SDWebImageFrame.h
+CodingAssignment/Pods/Headers/Public/SDWebImage/SDWebImageGIFCoder.h
+CodingAssignment/Pods/Headers/Public/SDWebImage/SDWebImageImageIOCoder.h
+CodingAssignment/Pods/Headers/Public/SDWebImage/SDWebImageManager.h
+CodingAssignment/Pods/Headers/Public/SDWebImage/SDWebImageOperation.h
+CodingAssignment/Pods/Headers/Public/SDWebImage/SDWebImagePrefetcher.h
+CodingAssignment/Pods/Headers/Public/SDWebImage/UIButton+WebCache.h
+CodingAssignment/Pods/Headers/Public/SDWebImage/UIImage+ForceDecode.h
+CodingAssignment/Pods/Headers/Public/SDWebImage/UIImage+GIF.h
+CodingAssignment/Pods/Headers/Public/SDWebImage/UIImage+MultiFormat.h
+CodingAssignment/Pods/Headers/Public/SDWebImage/UIImageView+HighlightedWebCache.h
+CodingAssignment/Pods/Headers/Public/SDWebImage/UIImageView+WebCache.h
+CodingAssignment/Pods/Headers/Public/SDWebImage/UIView+WebCache.h
+CodingAssignment/Pods/Headers/Public/SDWebImage/UIView+WebCacheOperation.h
+CodingAssignment/Pods/Masonry/LICENSE
+CodingAssignment/Pods/Masonry/README.md
+CodingAssignment/Pods/Masonry/Masonry/MASCompositeConstraint.h
+CodingAssignment/Pods/Masonry/Masonry/MASCompositeConstraint.m
+CodingAssignment/Pods/Masonry/Masonry/MASConstraint+Private.h
+CodingAssignment/Pods/Masonry/Masonry/MASConstraint.h
+CodingAssignment/Pods/Masonry/Masonry/MASConstraint.m
+CodingAssignment/Pods/Masonry/Masonry/MASConstraintMaker.h
+CodingAssignment/Pods/Masonry/Masonry/MASConstraintMaker.m
+CodingAssignment/Pods/Masonry/Masonry/MASLayoutConstraint.h
+CodingAssignment/Pods/Masonry/Masonry/MASLayoutConstraint.m
+CodingAssignment/Pods/Masonry/Masonry/Masonry.h
+CodingAssignment/Pods/Masonry/Masonry/MASUtilities.h
+CodingAssignment/Pods/Masonry/Masonry/MASViewAttribute.h
+CodingAssignment/Pods/Masonry/Masonry/MASViewAttribute.m
+CodingAssignment/Pods/Masonry/Masonry/MASViewConstraint.h
+CodingAssignment/Pods/Masonry/Masonry/MASViewConstraint.m
+CodingAssignment/Pods/Masonry/Masonry/NSArray+MASAdditions.h
+CodingAssignment/Pods/Masonry/Masonry/NSArray+MASAdditions.m
+CodingAssignment/Pods/Masonry/Masonry/NSArray+MASShorthandAdditions.h
+CodingAssignment/Pods/Masonry/Masonry/NSLayoutConstraint+MASDebugAdditions.h
+CodingAssignment/Pods/Masonry/Masonry/NSLayoutConstraint+MASDebugAdditions.m
+CodingAssignment/Pods/Masonry/Masonry/View+MASAdditions.h
+CodingAssignment/Pods/Masonry/Masonry/View+MASAdditions.m
+CodingAssignment/Pods/Masonry/Masonry/View+MASShorthandAdditions.h
+CodingAssignment/Pods/Masonry/Masonry/ViewController+MASAdditions.h
+CodingAssignment/Pods/Masonry/Masonry/ViewController+MASAdditions.m
+CodingAssignment/Pods/Pods.xcodeproj/project.pbxproj
+CodingAssignment/Pods/Pods.xcodeproj/xcuserdata/gurpreet.singh.xcuserdatad/xcschemes/Masonry.xcscheme
+CodingAssignment/Pods/Pods.xcodeproj/xcuserdata/gurpreet.singh.xcuserdatad/xcschemes/Pods-CodingAssignment.xcscheme
+CodingAssignment/Pods/Pods.xcodeproj/xcuserdata/gurpreet.singh.xcuserdatad/xcschemes/Pods-CodingAssignmentTests.xcscheme
+CodingAssignment/Pods/Pods.xcodeproj/xcuserdata/gurpreet.singh.xcuserdatad/xcschemes/SDWebImage.xcscheme
+CodingAssignment/Pods/Pods.xcodeproj/xcuserdata/gurpreet.singh.xcuserdatad/xcschemes/xcschememanagement.plist
+CodingAssignment/Pods/SDWebImage/LICENSE
+CodingAssignment/Pods/SDWebImage/README.md
+CodingAssignment/Pods/SDWebImage/SDWebImage/NSData+ImageContentType.h
+CodingAssignment/Pods/SDWebImage/SDWebImage/NSData+ImageContentType.m
+CodingAssignment/Pods/SDWebImage/SDWebImage/NSImage+WebCache.h
+CodingAssignment/Pods/SDWebImage/SDWebImage/NSImage+WebCache.m
+CodingAssignment/Pods/SDWebImage/SDWebImage/SDImageCache.h
+CodingAssignment/Pods/SDWebImage/SDWebImage/SDImageCache.m
+CodingAssignment/Pods/SDWebImage/SDWebImage/SDImageCacheConfig.h
+CodingAssignment/Pods/SDWebImage/SDWebImage/SDImageCacheConfig.m
+CodingAssignment/Pods/SDWebImage/SDWebImage/SDWebImageCoder.h
+CodingAssignment/Pods/SDWebImage/SDWebImage/SDWebImageCoder.m
+CodingAssignment/Pods/SDWebImage/SDWebImage/SDWebImageCoderHelper.h
+CodingAssignment/Pods/SDWebImage/SDWebImage/SDWebImageCoderHelper.m
+CodingAssignment/Pods/SDWebImage/SDWebImage/SDWebImageCodersManager.h
+CodingAssignment/Pods/SDWebImage/SDWebImage/SDWebImageCodersManager.m
+CodingAssignment/Pods/SDWebImage/SDWebImage/SDWebImageCompat.h
+CodingAssignment/Pods/SDWebImage/SDWebImage/SDWebImageCompat.m
+CodingAssignment/Pods/SDWebImage/SDWebImage/SDWebImageDownloader.h
+CodingAssignment/Pods/SDWebImage/SDWebImage/SDWebImageDownloader.m
+CodingAssignment/Pods/SDWebImage/SDWebImage/SDWebImageDownloaderOperation.h
+CodingAssignment/Pods/SDWebImage/SDWebImage/SDWebImageDownloaderOperation.m
+CodingAssignment/Pods/SDWebImage/SDWebImage/SDWebImageFrame.h
+CodingAssignment/Pods/SDWebImage/SDWebImage/SDWebImageFrame.m
+CodingAssignment/Pods/SDWebImage/SDWebImage/SDWebImageGIFCoder.h
+CodingAssignment/Pods/SDWebImage/SDWebImage/SDWebImageGIFCoder.m
+CodingAssignment/Pods/SDWebImage/SDWebImage/SDWebImageImageIOCoder.h
+CodingAssignment/Pods/SDWebImage/SDWebImage/SDWebImageImageIOCoder.m
+CodingAssignment/Pods/SDWebImage/SDWebImage/SDWebImageManager.h
+CodingAssignment/Pods/SDWebImage/SDWebImage/SDWebImageManager.m
+CodingAssignment/Pods/SDWebImage/SDWebImage/SDWebImageOperation.h
+CodingAssignment/Pods/SDWebImage/SDWebImage/SDWebImagePrefetcher.h
+CodingAssignment/Pods/SDWebImage/SDWebImage/SDWebImagePrefetcher.m
+CodingAssignment/Pods/SDWebImage/SDWebImage/UIButton+WebCache.h
+CodingAssignment/Pods/SDWebImage/SDWebImage/UIButton+WebCache.m
+CodingAssignment/Pods/SDWebImage/SDWebImage/UIImage+ForceDecode.h
+CodingAssignment/Pods/SDWebImage/SDWebImage/UIImage+ForceDecode.m
+CodingAssignment/Pods/SDWebImage/SDWebImage/UIImage+GIF.h
+CodingAssignment/Pods/SDWebImage/SDWebImage/UIImage+GIF.m
+CodingAssignment/Pods/SDWebImage/SDWebImage/UIImage+MultiFormat.h
+CodingAssignment/Pods/SDWebImage/SDWebImage/UIImage+MultiFormat.m
+CodingAssignment/Pods/SDWebImage/SDWebImage/UIImageView+HighlightedWebCache.h
+CodingAssignment/Pods/SDWebImage/SDWebImage/UIImageView+HighlightedWebCache.m
+CodingAssignment/Pods/SDWebImage/SDWebImage/UIImageView+WebCache.h
+CodingAssignment/Pods/SDWebImage/SDWebImage/UIImageView+WebCache.m
+CodingAssignment/Pods/SDWebImage/SDWebImage/UIView+WebCache.h
+CodingAssignment/Pods/SDWebImage/SDWebImage/UIView+WebCache.m
+CodingAssignment/Pods/SDWebImage/SDWebImage/UIView+WebCacheOperation.h
+CodingAssignment/Pods/SDWebImage/SDWebImage/UIView+WebCacheOperation.m
+CodingAssignment/Pods/Target Support Files/Masonry/Masonry-dummy.m
+CodingAssignment/Pods/Target Support Files/Masonry/Masonry-prefix.pch
+CodingAssignment/Pods/Target Support Files/Masonry/Masonry.xcconfig
+CodingAssignment/Pods/Target Support Files/Pods-CodingAssignment/Pods-CodingAssignment-acknowledgements.markdown
+CodingAssignment/Pods/Target Support Files/Pods-CodingAssignment/Pods-CodingAssignment-acknowledgements.plist
+CodingAssignment/Pods/Target Support Files/Pods-CodingAssignment/Pods-CodingAssignment-dummy.m
+CodingAssignment/Pods/Target Support Files/Pods-CodingAssignment/Pods-CodingAssignment-frameworks.sh
+CodingAssignment/Pods/Target Support Files/Pods-CodingAssignment/Pods-CodingAssignment-resources.sh
+CodingAssignment/Pods/Target Support Files/Pods-CodingAssignment/Pods-CodingAssignment.debug.xcconfig
+CodingAssignment/Pods/Target Support Files/Pods-CodingAssignment/Pods-CodingAssignment.release.xcconfig
+CodingAssignment/Pods/Target Support Files/Pods-CodingAssignmentTests/Pods-CodingAssignmentTests-acknowledgements.markdown
+CodingAssignment/Pods/Target Support Files/Pods-CodingAssignmentTests/Pods-CodingAssignmentTests-acknowledgements.plist
+CodingAssignment/Pods/Target Support Files/Pods-CodingAssignmentTests/Pods-CodingAssignmentTests-dummy.m
+CodingAssignment/Pods/Target Support Files/Pods-CodingAssignmentTests/Pods-CodingAssignmentTests-frameworks.sh
+CodingAssignment/Pods/Target Support Files/Pods-CodingAssignmentTests/Pods-CodingAssignmentTests-resources.sh
+CodingAssignment/Pods/Target Support Files/Pods-CodingAssignmentTests/Pods-CodingAssignmentTests.debug.xcconfig
+CodingAssignment/Pods/Target Support Files/Pods-CodingAssignmentTests/Pods-CodingAssignmentTests.release.xcconfig
+CodingAssignment/Pods/Target Support Files/SDWebImage/SDWebImage-dummy.m
+CodingAssignment/Pods/Target Support Files/SDWebImage/SDWebImage-prefix.pch
+CodingAssignment/Pods/Target Support Files/SDWebImage/SDWebImage.xcconfig
