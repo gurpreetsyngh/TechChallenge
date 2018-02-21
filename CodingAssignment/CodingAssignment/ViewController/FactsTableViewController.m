@@ -129,6 +129,7 @@ static NSString * const CellIdentifier = @"FactsCustomCell";
     } else {
         cell.thumbnailImage.image = [UIImage imageNamed:@"no image.png"];
         fact.image =  cell.thumbnailImage.image;
+        [cell.activityIndicator stopAnimating];
     }
     
     return cell;

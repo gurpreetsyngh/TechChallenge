@@ -204,8 +204,8 @@
 		52FB45F8203D357D005FD482 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				52FB45F9203D357D005FD482 /* FactsTableViewController.m */,
 				52FB45FA203D357D005FD482 /* FactsTableViewController.h */,
+				52FB45F9203D357D005FD482 /* FactsTableViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
