@@ -10,7 +10,6 @@
 		0F6EC9C33C9F0D5BD0C1907B /* libPods-CodingAssignmentTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 746FBC3EA59FE02CF649FBE2 /* libPods-CodingAssignmentTests.a */; };
 		2691606FEF9C489A4EEB4FB3 /* libPods-CodingAssignment.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70CEEB13E119100E1C695E88 /* libPods-CodingAssignment.a */; };
 		52FB45BC203CFD76005FD482 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FB45BB203CFD76005FD482 /* AppDelegate.m */; };
-		52FB45BF203CFD76005FD482 /* FactsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FB45BE203CFD76005FD482 /* FactsTableViewController.m */; };
 		52FB45C2203CFD76005FD482 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52FB45C0203CFD76005FD482 /* Main.storyboard */; };
 		52FB45C4203CFD76005FD482 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52FB45C3203CFD76005FD482 /* Assets.xcassets */; };
 		52FB45C7203CFD76005FD482 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52FB45C5203CFD76005FD482 /* LaunchScreen.storyboard */; };
@@ -23,6 +22,7 @@
 		52FB45F0203D0BC8005FD482 /* Fact.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FB45EF203D0BC8005FD482 /* Fact.m */; };
 		52FB45F4203D263D005FD482 /* FactsCustomCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FB45F3203D263D005FD482 /* FactsCustomCellTableViewCell.m */; };
 		52FB45F7203D2C4D005FD482 /* StyleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FB45F6203D2C4D005FD482 /* StyleManager.m */; };
+		52FB45FB203D357D005FD482 /* FactsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FB45F9203D357D005FD482 /* FactsTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +40,6 @@
 		52FB45B7203CFD76005FD482 /* CodingAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodingAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52FB45BA203CFD76005FD482 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		52FB45BB203CFD76005FD482 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		52FB45BD203CFD76005FD482 /* FactsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FactsTableViewController.h; sourceTree = "<group>"; };
-		52FB45BE203CFD76005FD482 /* FactsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactsTableViewController.m; sourceTree = "<group>"; };
 		52FB45C1203CFD76005FD482 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52FB45C3203CFD76005FD482 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52FB45C6203CFD76005FD482 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -64,6 +62,8 @@
 		52FB45F3203D263D005FD482 /* FactsCustomCellTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactsCustomCellTableViewCell.m; sourceTree = "<group>"; };
 		52FB45F5203D2C4D005FD482 /* StyleManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StyleManager.h; sourceTree = "<group>"; };
 		52FB45F6203D2C4D005FD482 /* StyleManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StyleManager.m; sourceTree = "<group>"; };
+		52FB45F9203D357D005FD482 /* FactsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactsTableViewController.m; sourceTree = "<group>"; };
+		52FB45FA203D357D005FD482 /* FactsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactsTableViewController.h; sourceTree = "<group>"; };
 		70CEEB13E119100E1C695E88 /* libPods-CodingAssignment.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CodingAssignment.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		746FBC3EA59FE02CF649FBE2 /* libPods-CodingAssignmentTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CodingAssignmentTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CE8691AFDC4CE1020FFBDF4 /* Pods-CodingAssignmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodingAssignmentTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CodingAssignmentTests/Pods-CodingAssignmentTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -125,8 +125,7 @@
 			children = (
 				52FB45BA203CFD76005FD482 /* AppDelegate.h */,
 				52FB45BB203CFD76005FD482 /* AppDelegate.m */,
-				52FB45BD203CFD76005FD482 /* FactsTableViewController.h */,
-				52FB45BE203CFD76005FD482 /* FactsTableViewController.m */,
+				52FB45F8203D357D005FD482 /* ViewController */,
 				52FB45F1203D2625005FD482 /* Views */,
 				52FB45E2203D082D005FD482 /* Utilities */,
 				52FB45E6203D0AAF005FD482 /* DataManager */,
@@ -198,6 +197,15 @@
 			);
 			path = Views;
 			sourceTree = SOURCE_ROOT;
+		};
+		52FB45F8203D357D005FD482 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				52FB45F9203D357D005FD482 /* FactsTableViewController.m */,
+				52FB45FA203D357D005FD482 /* FactsTableViewController.h */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
 		};
 		56EFD52B7A42A27EAE207EC5 /* Pods */ = {
 			isa = PBXGroup;
@@ -421,12 +429,12 @@
 				52FB45E1203D07BA005FD482 /* NetworkManager.m in Sources */,
 				52FB45E9203D0ABC005FD482 /* DataManager.m in Sources */,
 				52FB45F7203D2C4D005FD482 /* StyleManager.m in Sources */,
-				52FB45BF203CFD76005FD482 /* FactsTableViewController.m in Sources */,
 				52FB45F4203D263D005FD482 /* FactsCustomCellTableViewCell.m in Sources */,
 				52FB45CA203CFD76005FD482 /* main.m in Sources */,
 				52FB45BC203CFD76005FD482 /* AppDelegate.m in Sources */,
 				52FB45E5203D082D005FD482 /* Reachability.m in Sources */,
 				52FB45F0203D0BC8005FD482 /* Fact.m in Sources */,
+				52FB45FB203D357D005FD482 /* FactsTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
