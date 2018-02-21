@@ -16,6 +16,11 @@
 @property (nonatomic, strong) NSString *imageURL;
 @property (nonatomic, strong) UIImage *image;
 
+/*
+ * initWithArray:will return an array of Facts
+ * @param: array of dictionaries
+ * @return: array of facts object
+ */
 + (NSArray*)initWithArray:(NSArray*)array;
 
 @end

@@ -12,6 +12,10 @@ typedef void(^NetworkRequestCompletionHandler)(NSDictionary *response, NSError *
 
 @interface NetworkManager : NSObject
 
+/*
+ * fetchDataFromServerWithCompletion: will make call to specified url.
+ * @param: block returns either dictionary or error
+ */
 + (void)fetchDataFromServerWithCompletion:(NetworkRequestCompletionHandler)completionBlock;
 
 @end

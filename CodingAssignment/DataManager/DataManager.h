@@ -12,6 +12,10 @@ typedef void (^DataManagerCompletionHandler)(NSString * _Nullable title, NSArray
 
 @interface DataManager : NSObject
 
+/*
+ * getFacts: will make call to network manager to get the dictionary.
+ * @param: block returns title, array of facts objects or error, if any
+ */
 + (void)getFacts:(DataManagerCompletionHandler _Nullable )completionBlock;
 
 @end
