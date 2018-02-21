@@ -14,6 +14,7 @@
 #import "Fact.h"
 
 static NSString * const CellIdentifier = @"FactsCustomCell";
+static NSString * const RefreshText = @"Updating Data...";
 
 @interface FactsTableViewController ()
 
@@ -26,14 +27,20 @@ static NSString * const CellIdentifier = @"FactsCustomCell";
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.automaticallyAdjustsScrollViewInsets = false;
+    self.edgesForExtendedLayout = UIRectEdgeNone;
     self.tableView.estimatedRowHeight = 44;
+    [self setupSubViews];
+    [self getFacts];
+}
+
+- (void)setupSubViews {
     self.refreshControl = [[UIRefreshControl alloc]init];
     self.refreshControl.tintColor = [UIColor grayColor];
-    [self.refreshControl addTarget:self action:@selector(getFacts) forControlEvents:(UIControlEventValueChanged)];
+    [self.refreshControl addTarget:self action:@selector(getFacts) forControlEvents:UIControlEventValueChanged];
     [self.refreshControl setTintColor:[StyleManager secondaryColor]];
-    NSAttributedString *title = [[NSAttributedString alloc] initWithString:@"Updating Data..." attributes: @{NSForegroundColorAttributeName:[StyleManager primaryColor]}];
+    NSAttributedString *title = [[NSAttributedString alloc] initWithString:RefreshText attributes: @{NSForegroundColorAttributeName:[StyleManager primaryColor]}];
     self.refreshControl.attributedTitle = [[NSAttributedString alloc]initWithAttributedString:title];
-    [self getFacts];
+
 }
 
 - (void)getFacts {
@@ -41,19 +48,23 @@ static NSString * const CellIdentifier = @"FactsCustomCell";
     [DataManager getFacts:^(NSString * _Nullable title, NSArray * _Nullable data, NSError * _Nullable error) {
         if (error) {
             dispatch_async(dispatch_get_main_queue(), ^{
-                [weakSelf showError:error.localizedDescription];
+                [weakSelf.facts removeAllObjects];
                 if (weakSelf.refreshControl.isRefreshing) {
                     [weakSelf.refreshControl endRefreshing];
                 }
+                [weakSelf.tableView reloadData];
+                [weakSelf showError:error.localizedDescription];
+               
             });
         } else {
             weakSelf.facts = [[weakSelf filterArray:data] mutableCopy];
             dispatch_async(dispatch_get_main_queue(), ^{
                 weakSelf.navigationItem.title = title;
-                [weakSelf.tableView reloadData];
                 if (weakSelf.refreshControl.isRefreshing) {
                     [weakSelf.refreshControl endRefreshing];
                 }
+                [weakSelf.tableView reloadData];
+                
             });
         }
     }];
@@ -64,11 +75,13 @@ static NSString * const CellIdentifier = @"FactsCustomCell";
  * @param: reason for which error occured
  */
 - (void)showError:(NSString *)reason {
-    UILabel *messageLbl = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, self.tableView.bounds.size.width, self.tableView.bounds.size.height)];
-    messageLbl.text = reason;
-    messageLbl.textAlignment = NSTextAlignmentCenter;
-    [messageLbl sizeToFit];
-    self.tableView.backgroundView = messageLbl;
+    UILabel *messageLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, self.tableView.bounds.size.width, self.tableView.bounds.size.height)];
+    messageLabel.text = reason;
+    messageLabel.numberOfLines = 2;
+    messageLabel.textAlignment = NSTextAlignmentCenter;
+    messageLabel.font = [StyleManager headingFont];
+    [messageLabel sizeToFit];
+    self.tableView.backgroundView = messageLabel;
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
 }
 
