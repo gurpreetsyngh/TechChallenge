@@ -23,6 +23,7 @@
 		52FB45F4203D263D005FD482 /* FactsCustomCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FB45F3203D263D005FD482 /* FactsCustomCellTableViewCell.m */; };
 		52FB45F7203D2C4D005FD482 /* StyleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FB45F6203D2C4D005FD482 /* StyleManager.m */; };
 		52FB45FB203D357D005FD482 /* FactsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FB45F9203D357D005FD482 /* FactsTableViewController.m */; };
+		52FB45FE203D368F005FD482 /* mock.json in Resources */ = {isa = PBXBuildFile; fileRef = 52FB45FD203D368F005FD482 /* mock.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		52FB45F6203D2C4D005FD482 /* StyleManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StyleManager.m; sourceTree = "<group>"; };
 		52FB45F9203D357D005FD482 /* FactsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactsTableViewController.m; sourceTree = "<group>"; };
 		52FB45FA203D357D005FD482 /* FactsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactsTableViewController.h; sourceTree = "<group>"; };
+		52FB45FD203D368F005FD482 /* mock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mock.json; sourceTree = "<group>"; };
 		70CEEB13E119100E1C695E88 /* libPods-CodingAssignment.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CodingAssignment.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		746FBC3EA59FE02CF649FBE2 /* libPods-CodingAssignmentTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CodingAssignmentTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CE8691AFDC4CE1020FFBDF4 /* Pods-CodingAssignmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodingAssignmentTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CodingAssignmentTests/Pods-CodingAssignmentTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				52FB45D3203CFD76005FD482 /* CodingAssignmentTests.m */,
+				52FB45FD203D368F005FD482 /* mock.json */,
 				52FB45D5203CFD76005FD482 /* Info.plist */,
 			);
 			path = CodingAssignmentTests;
@@ -316,6 +319,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52FB45FE203D368F005FD482 /* mock.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

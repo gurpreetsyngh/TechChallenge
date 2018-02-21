@@ -7,6 +7,11 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "NetworkManager.h"
+#import "DataManager.h"
+#import "NSDictionary+Utils.h"
+#import "Fact.h"
+
 
 @interface CodingAssignmentTests : XCTestCase
 
@@ -24,16 +29,40 @@
     [super tearDown];
 }
 
-- (void)testExample {
-    // This is an example of a functional test case.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
+- (void)testDataManager {
+    XCTestExpectation *expectation = [self expectationWithDescription:@"Network Manager"];
+    
+    [DataManager getFacts:^(NSString * _Nullable title, NSArray * _Nullable data, NSError * _Nullable error) {
+        if (error) {
+            XCTAssertEqualObjects(error.localizedDescription, @"Internet connection appears to be offline.");
+            [expectation fulfill];
+        } else {
+            XCTAssertNotNil(title);
+            XCTAssertNotNil(data);
+            [expectation fulfill];
+        }
+    }];
+    [self waitForExpectationsWithTimeout:30 handler:^(NSError *error) {
+        if (error) {
+            XCTFail(@"failed");
+        }
+    }];
 }
 
-- (void)testPerformanceExample {
-    // This is an example of a performance test case.
-    [self measureBlock:^{
-        // Put the code you want to measure the time of here.
-    }];
+- (void)testFactModel {
+    
+    NSArray *facts = [Fact initWithArray:[[self readLocalJSON] arrayForKey:@"rows"]];
+    Fact *fact = facts.firstObject;
+    XCTAssertEqualObjects(fact.title,@"Beavers");
+    XCTAssertEqualObjects(fact.imageURL,@"http://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/American_Beaver.jpg/220px-American_Beaver.jpg");
+    
+}
+
+- (NSDictionary *)readLocalJSON {
+    NSString *filePath = [[[NSBundle bundleForClass:[self class]] resourcePath] stringByAppendingPathComponent:@"mock.json"];
+    NSData *data = [NSData dataWithContentsOfFile:filePath];
+    NSDictionary *jsonDict =  [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
+    return jsonDict;
 }
 
 @end
